@@ -1,0 +1,136 @@
+body{
+  background: #FFFFCC;
+}
+
+.header{
+background-image: url(assets/assets/img/lionking.jpg);
+background-size:
+  width: 400px;
+  height: 300px;
+  color: white;
+}
+
+#title{
+  font-size: 100px;
+  padding: 20px 240px;
+    padding: 0.5em 1em;
+    color: #FFF;
+    background: #6eb7ff;
+    border-bottom: solid 6px #3f87ce;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+  #lunch500yen {
+
+  }
+
+  #nav {
+    list-style: none;
+  }
+   
+  #nav li {
+    width: 140px;
+    text-align: center;
+    background-color: rgb(248, 134, 99);
+    display: flex;
+  }
+   
+  #nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .beaf img{
+    height: 270px;
+    width: 310px;
+    margin:30px;
+    padding: 20px
+  }
+
+  .humburg img{
+    height: 270px;
+    width: 300px;
+    margin:30px;
+    padding: 20px
+  }
+
+  .food{
+    display: flex;
+    align-items: center;
+  }
+
+  .ALL2{
+    display: flex;
+    align-items: center;
+  }
+
+  #lunch1000yen{
+    display: flex;
+    align-items: center;
+  }
+
+  .yakitori img{
+    height: 300px;
+    width: 300px;
+    margin:30px;
+    padding: 20px
+  }
+
+  #lunchpasta{
+    display: flex;
+    align-items: center;
+  }
+
+  .pasta img{
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    padding: 20px;
+  }
+
+  
+
+  .teisyoku img{
+    height: 330px;
+    width: 300px;
+    margin: 30px;
+    padding: 20px;
+  }
+
+  .teisyoku{
+    display: flex;
+    align-items: center;
+  }
+
+  #lunchteisyoku{
+    display: flex;
+    align-items: center;
+  }
+
+  .cafe img{
+    height: 300px;
+    width: 350px;
+    margin: 30px;
+    padding: 20px;
+  }
+
+  #lunchcafe{
+    display: flex;
+    align-items: center;
+  }
+
+
+  .flexbox-container-vertical-center {
+    display: flex; /* 子要素をflexboxで揃える */
+    flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
+    justify-content: center; /* 子要素をflexboxにより中央に配置する */
+    align-items: center;  /* 子要素をflexboxにより中央に配置する */
+    width: 100px; /* 見た目用 */
+    height: 50px; /* 見た目用 */
+    border: 1px solid; /* 見た目用 */
+}
+span {
+    border: 1px solid; /* 見た目用 */
+}
