@@ -1,14 +1,21 @@
 body{
   background: #FFFFCC;
+  width: 1000px;
 }
 
 .header{
 background-image: url(assets/assets/img/lionking.jpg);
-background-size:
-  width: 400px;
   height: 300px;
   color: white;
 }
+
+@media screen and (max-width: 768px){
+  .header{
+    background-image: url(assets/assets/img/lionking.jpg);
+    width: 10%;
+    color: white;
+  }
+} 
 
 #title{
   font-size: 100px;
